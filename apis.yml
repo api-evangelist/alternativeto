@@ -1,39 +1,44 @@
 aid: alternativeto
-url: https://raw.githubusercontent.com/api-evangelist/alternativeto/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/alternativeto/refs/heads/main/apis.yml
 apis: []
 name: AlternativeTo
 tags:
-- Software Discovery
-- Alternatives
-- Reviews
+  - Software Discovery
+  - Alternatives
+  - Reviews
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 common:
-- url: https://alternativeto.net/
-  name: AlternativeTo Website
-  type: Website
-- url: https://alternativeto.net/about/
-  name: About
-  type: About
-- url: https://alternativeto.net/faq/
-  name: FAQ
-  type: FAQ
-- url: https://alternativeto.net/about/privacy/
-  name: Privacy Policy
-  type: PrivacyPolicy
-- url: https://alternativeto.net/news/all/
-  name: News
-  type: News
-- url: https://blog.alternativeto.net/
-  name: Blog
-  type: Blog
-- url: https://alternativeto.net/signup/
-  name: Sign Up
-  type: Signup
-- url: https://x.com/alternativeto
-  name: AlternativeTo on X
-  type: X
-- url: https://mastodon.social/@alternativeto
-  name: AlternativeTo on Mastodon
-  type: Mastodon
+  - url: https://alternativeto.net/
+    name: AlternativeTo Website
+    type: Website
+  - url: https://alternativeto.net/about/
+    name: About
+    type: About
+  - url: https://alternativeto.net/faq/
+    name: FAQ
+    type: FAQ
+  - url: https://alternativeto.net/about/privacy/
+    name: Privacy Policy
+    type: PrivacyPolicy
+  - url: https://alternativeto.net/news/all/
+    name: News
+    type: News
+  - url: https://blog.alternativeto.net/
+    name: Blog
+    type: Blog
+  - url: https://alternativeto.net/signup/
+    name: Sign Up
+    type: Signup
+  - url: https://x.com/alternativeto
+    name: AlternativeTo on X
+    type: X
+  - url: https://mastodon.social/@alternativeto
+    name: AlternativeTo on Mastodon
+    type: Mastodon
+description: >-
+  AlternativeTo is a crowdsourced software discovery platform that helps users find
+  alternatives to software products based on user recommendations across desktop,
+  mobile, and web applications.
