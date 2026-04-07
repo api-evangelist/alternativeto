@@ -1,12 +1,11 @@
 aid: alternativeto
-url: 
-  https://raw.githubusercontent.com/api-evangelist/alternativeto/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/alternativeto/refs/heads/main/apis.yml
 apis: []
 name: AlternativeTo
 tags:
-  - Software Discovery
   - Alternatives
   - Reviews
+  - Software Discovery
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
