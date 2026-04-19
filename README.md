@@ -1,36 +1,27 @@
-# AlternativeTo
+# AlternativeTo (alternativeto)
 
-AlternativeTo (https://alternativeto.net/) is a crowdsourced platform for discovering alternative software and apps. Users can search for any application and find curated lists of similar tools across platforms including Windows, macOS, Linux, iOS, Android, and the web. The platform combines community voting and reviews to surface the best alternatives, making it a go-to resource for anyone evaluating software options.
+AlternativeTo is a crowdsourced software discovery platform that helps users find alternatives to software products based on user recommendations across desktop, mobile, and web applications. The platform does not currently offer a public API, but provides partner integration opportunities for software vendors.
 
-## Overview
+**Website:** [https://alternativeto.net/](https://alternativeto.net/)
+**Blog:** [https://blog.alternativeto.net/](https://blog.alternativeto.net/)
 
-AlternativeTo covers hundreds of thousands of applications and services. Each listing includes platform availability, licensing information (open source vs. proprietary, free vs. paid), user-submitted reviews, and a ranked list of alternatives based on community votes. The site also publishes a news section covering updates and releases across the software ecosystem.
+## Status
 
-## Key Features
+AlternativeTo does not offer a public developer API. Software vendors can contact partners@alternativeto.com for listing and partnership opportunities.
 
-- Crowdsourced software alternative discovery
-- Community voting and reviews for ranking alternatives
-- Filtering by platform, license type, and pricing model
-- News and updates covering the software landscape
-- Free submission for software developers and vendors
-- User accounts with the ability to vote, review, and suggest new apps
+## Capabilities
 
-## Common Properties
+- **Software Alternative Discovery** — Crowdsourced alternatives with user voting and comparisons
+- **Platform Filtering** — Filter by Windows, Mac, Linux, Android, iPhone, and Online platforms
+- **License Filtering** — Find open source, free, or commercial alternatives
+- **User Reviews and Ratings** — Community-driven reviews and rating system
+- **Software Vendor Listings** — Vendor-managed product listings for software discovery
 
-| Property | URL |
-|---|---|
-| Website | https://alternativeto.net/ |
-| About | https://alternativeto.net/about/ |
-| FAQ | https://alternativeto.net/faq/ |
-| Privacy Policy | https://alternativeto.net/about/privacy/ |
-| News | https://alternativeto.net/news/all/ |
-| Blog | https://blog.alternativeto.net/ |
-| Sign Up | https://alternativeto.net/signup/ |
-| X (Twitter) | https://x.com/alternativeto |
-| Mastodon | https://mastodon.social/@alternativeto |
+## Social
 
-## Tags
+- X: [https://x.com/alternativeto](https://x.com/alternativeto)
+- Mastodon: [https://mastodon.social/@alternativeto](https://mastodon.social/@alternativeto)
 
-- Software Discovery
-- Alternatives
-- Reviews
+## Maintainer
+
+Kin Lane — kin@apievangelist.com

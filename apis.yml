@@ -1,43 +1,73 @@
 aid: alternativeto
 url: https://raw.githubusercontent.com/api-evangelist/alternativeto/refs/heads/main/apis.yml
-apis: []
 name: AlternativeTo
 tags:
   - Alternatives
   - Reviews
   - Software Discovery
+  - Software Directory
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
-common:
-  - url: https://alternativeto.net/
-    name: AlternativeTo Website
-    type: Website
-  - url: https://alternativeto.net/about/
-    name: About
-    type: About
-  - url: https://alternativeto.net/faq/
-    name: FAQ
-    type: FAQ
-  - url: https://alternativeto.net/about/privacy/
-    name: Privacy Policy
-    type: PrivacyPolicy
-  - url: https://alternativeto.net/news/all/
-    name: News
-    type: News
-  - url: https://blog.alternativeto.net/
-    name: Blog
-    type: Blog
-  - url: https://alternativeto.net/signup/
-    name: Sign Up
-    type: Signup
-  - url: https://x.com/alternativeto
-    name: AlternativeTo on X
-    type: X
-  - url: https://mastodon.social/@alternativeto
-    name: AlternativeTo on Mastodon
-    type: Mastodon
 description: >-
   AlternativeTo is a crowdsourced software discovery platform that helps users find
   alternatives to software products based on user recommendations across desktop,
-  mobile, and web applications.
+  mobile, and web applications. The platform does not currently offer a public API,
+  but provides partner integration opportunities for software vendors.
+created: '2024-01-01'
+modified: '2026-04-19'
+specificationVersion: '0.19'
+apis: []
+common:
+  - url: https://alternativeto.net/
+    type: Website
+  - url: https://alternativeto.net/about/
+    type: About
+  - url: https://alternativeto.net/faq/
+    type: FAQ
+  - url: https://alternativeto.net/about/privacy/
+    type: PrivacyPolicy
+  - url: https://alternativeto.net/news/all/
+    type: News
+  - url: https://blog.alternativeto.net/
+    type: Blog
+  - url: https://alternativeto.net/signup/
+    type: SignUp
+  - url: https://x.com/alternativeto
+    type: X
+  - url: https://mastodon.social/@alternativeto
+    type: Mastodon
+  - type: Features
+    data:
+      - name: Software Alternative Discovery
+        description: >-
+          Crowdsourced database of software alternatives with user voting,
+          ratings, and comparisons across web, desktop, and mobile platforms.
+      - name: Platform Filtering
+        description: >-
+          Filter alternatives by platform (Windows, Mac, Linux, Android, iPhone,
+          Online) and license type (open source, free, commercial).
+      - name: User Reviews and Ratings
+        description: >-
+          Community-driven reviews and rating system for software products
+          with likes and alternative recommendations.
+      - name: Software Vendor Listings
+        description: >-
+          Vendor-managed software listings with features, screenshots, and
+          links for software discovery and comparison.
+  - type: UseCases
+    data:
+      - name: Software Discovery
+        description: >-
+          Find alternatives to discontinued, expensive, or unavailable software
+          products based on crowdsourced community recommendations.
+      - name: Open Source Alternatives
+        description: >-
+          Discover free and open source alternatives to commercial software
+          products with platform filtering and license search.
+      - name: Vendor Software Listing
+        description: >-
+          Software vendors can list their products on AlternativeTo to reach
+          users searching for alternatives to competing products.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
