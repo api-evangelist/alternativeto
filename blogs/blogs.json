@@ -1,0 +1,13 @@
+{
+  "repo": "alternativeto",
+  "feeds": [
+    {
+      "source": "https://blog.alternativeto.net/",
+      "feed_url": "https://blog.alternativeto.net/",
+      "title": "AlternativeTo Blog",
+      "saved": 12
+    }
+  ],
+  "fetched": "2026-07-04T13:38:06Z",
+  "post_count": 12
+}

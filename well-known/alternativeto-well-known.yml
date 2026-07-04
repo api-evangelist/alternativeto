@@ -1,0 +1,21 @@
+generated: '2026-06-20'
+method: searched
+source: https://alternativeto.net/
+host: https://alternativeto.net
+notes: >-
+  AlternativeTo does not currently publish any /.well-known/ discovery documents.
+  Every standard discovery path was probed and returned 404. The blog host
+  (https://blog.alternativeto.net) was also probed with the same result. The
+  /api/, /developers/ and /api-docs/ paths return a Cloudflare challenge (403)
+  rather than any real API surface — there is no public API.
+documents:
+  - path: /.well-known/security.txt          # RFC 9116
+    status: 404
+  - path: /.well-known/openid-configuration   # OIDC discovery
+    status: 404
+  - path: /.well-known/oauth-authorization-server  # RFC 8414
+    status: 404
+  - path: /.well-known/api-catalog             # RFC 9727
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404

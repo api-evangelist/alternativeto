@@ -14,7 +14,7 @@ description: >-
   mobile, and web applications. The platform does not currently offer a public API,
   but provides partner integration opportunities for software vendors.
 created: '2024-01-01'
-modified: '2026-04-19'
+modified: '2026-06-20'
 specificationVersion: '0.19'
 apis: []
 common:
@@ -36,6 +36,14 @@ common:
     type: X
   - url: https://mastodon.social/@alternativeto
     type: Mastodon
+  - url: https://status.alternativeto.net/
+    type: StatusPage
+  - url: well-known/alternativeto-well-known.yml
+    type: WellKnown
+  - url: llms/alternativeto-llms.txt
+    type: LLMsTxt
+  - url: lifecycle/alternativeto-lifecycle.yml
+    type: Lifecycle
   - type: Features
     data:
       - name: Software Alternative Discovery

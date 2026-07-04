@@ -1,0 +1,17 @@
+generated: '2026-06-20'
+method: searched
+source: https://status.alternativeto.net/
+notes: >-
+  AlternativeTo does not publish a public API, so there is no API versioning,
+  deprecation policy, or SLA to record. A hosted status page was found. Values
+  below reflect only what could be verified from public surfaces.
+versioning: null
+deprecation:
+  policy_url: null
+  sunset_header: false
+sla:
+  url: null
+  uptime_target: null
+status_page: https://status.alternativeto.net/
+status_page_provider: Better Stack
+deprecated_operations: []
