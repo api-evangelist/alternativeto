@@ -3,11 +3,9 @@
   "feeds": [
     {
       "source": "https://blog.alternativeto.net/",
-      "feed_url": "https://blog.alternativeto.net/",
-      "title": "AlternativeTo Blog",
-      "saved": 12
+      "error": "HTTPError"
     }
   ],
-  "fetched": "2026-07-04T13:38:06Z",
+  "fetched": "2026-07-11T11:50:51Z",
   "post_count": 12
 }
